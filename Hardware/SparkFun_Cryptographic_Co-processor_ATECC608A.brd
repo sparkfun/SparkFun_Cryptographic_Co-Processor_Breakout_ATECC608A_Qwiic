@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -5023,6 +5023,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="21.40585" smashed="yes" rot="MR0"/>
 <element name="U1" library="SparkFun-IC-Special-Function" package="DUAL_UDFN_2X3MM_SOIC-8" value="ATECC608A" x="12.7" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.113" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-15951" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.906" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="U$9" library="output" package="CRYPTOGRAPHIC_CO#PROCESSOR0" value="" x="12.8524" y="19.4818" smashed="yes"/>
