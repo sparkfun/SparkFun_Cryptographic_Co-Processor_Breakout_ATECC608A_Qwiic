@@ -1,4 +1,4 @@
-SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic)
+SparkFun Cryptographic Co-Processor Breakout - ATECC608A (Qwiic)
 ========================================
 
 ![SparkFun Cryptographic Breakout](https://cdn.sparkfun.com//assets/parts/1/7/3/9/1/18077-SparkFun_Cryptographic_Co-Processor_Breakout_-_ATECC608A__Qwiic_-01.jpg)
