@@ -1,41 +1,40 @@
 SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic)
 ========================================
 
-![SparkFun Cryptographic Breakout](https://cdn.sparkfun.com/assets/parts/1/4/1/6/9/15573-SparkFun_Cryptographic_Co-Processor_Breakout_-_ATECC508A__Qwiic_-01.jpg)
+![SparkFun Cryptographic Breakout](https://cdn.sparkfun.com//assets/parts/1/7/3/9/1/18077-SparkFun_Cryptographic_Co-Processor_Breakout_-_ATECC608A__Qwiic_-01.jpg)
 
-[*SparkFun Cryptographic Co-Processor Breakout - ATECC508A (Qwiic) (DEV-15573)*](https://www.sparkfun.com/products/15573)
+[*SparkFun Cryptographic Co-Processor Breakout - ATECC608A (Qwiic) (DEV-15573)*](https://www.sparkfun.com/products/18077)
 
-The SparkFun Cryptographic Co-processor Breakout ATECC508A (Qwiic) takes all the great features of the Microchip ATECC508A cryptographic authentication device and adds two Qwiic ports for plug and play functionality. The ATECC508A chip is capable of many cryptographic processes, including, but not limited to:
+The SparkFun ATECC608A Cryptographic Co-processor Breakout allows you to add strong security to your IoT node, edge device, or embedded system. This includes asymmetric authentication, symmetric AES-128 encryption/decryption, and much more. As stated above, the ATECC608A has limited Arduino support and the complete datasheet is under NDA with Microchip.
 
-* An asymmetric key/signature solution based upon Elliptic Curve Cryptography.
-* A standard hash-based challenge-response protocol using a SHA-256 algorithm.
-* A FIPS random number generator. 
+This breakout board includes two Qwiic ports for plug and play functionality. Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1"-spaced pins in case you prefer to use a breadboard. The ATECC608A chip is capable of many cryptographic processes, including, but not limited to:
 
-Embedded in the chip is a 10 Kb EEPROM array that can be used for storing keys, certificates, data, consumption logging, and security configurations. Access to the sections of memory can then be restricted and the configuration locked to prevent changes.
+* Creating and securely storing unique asymmetric key pairs based on Elliptic Curve Cryptography (FIPS186-3).
+* AES-128: Encrypt/Decrypt, Galois Field Multiply for GCM
+* Creating and verifying 64-byte digital signatures (from 32-bytes of message data).
+* Creating a shared secret key on a public channel via Elliptic Curve Diffie-Hellman Algorithm.
+* SHA-256 & HMAC Hash including off-chip context save/restore
+* Internal high quality FIPS random number generator.
+* Embedded in the chip is a 10Kb EEPROM array that can be used for storing keys, certificates, data, consumption logging, and security configurations. Access to the sections of memory can then be restricted and the configuration locked to prevent changes. Each ATECC608A Breakout ships with a guaranteed unique 72-bit serial number and includes several security features to prevent physical attacks on the device itself, or logical attacks on the data transmitted between the device.
 
-Each ATECC508A ships with a guaranteed unique 72-bit serial number and includes several security features to prevent physical attacks on the device itself, or logical attacks on the data transmitted between the device.
-
-**&#x1F512; Note:** This board is **NOT** capable of encrypting and decrypting data. It can however, perform quite a few cryptographic authentication processes such as secure private key creation, secure key storage, and digital signature creation and verification.
+A summary datasheet for the ATECC608A is available [here](https://cdn.sparkfun.com/assets/d/5/c/c/a/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf). The full datasheet is under NDA with Microchip. You will need to contact them for access to the entire datasheet. Meanwhile, the ArduinoATECCX08 Library currently only supports the ATECC608A with SAMD21 Arduino boards
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **/Hardware/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-* **[SparkFun ATECCX08A Arduino Library](https://github.com/sparkfun/SparkFun_ATECCX08a_Arduino_Library)** - Arduino library for the ATECCX08A.
-* **[SparkFun Cryptographic Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide)** - Basic hookup guide for the SparkFun Cryptographic Co-Processor Breakout.
+* **[ArduinoECCX08 Arduino Library](https://github.com/arduino-libraries/ArduinoECCX08)** - Arduino library for the ATECCX08A.
+* **[CryptoAuthLib - ](https://github.com/MicrochipTech/cryptoauthlib)** - Microchip CryptoAuthentication Library (includes Python support).
 
 Product Versions
 ----------------
-* [DEV-15573](https://www.sparkfun.com/products/15573)- Initial Release
+* [DEV-18077](https://www.sparkfun.com/products/18077)- Initial Release
+* [SPX-15838](https://www.sparkfun.com/products/15838)- SparkX Release
 
 License Information
 -------------------
